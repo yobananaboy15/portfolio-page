@@ -1,1 +1,17 @@
+$primary: #f2bc94;
+$secondary: #00154f;
+$third: #f4af1b;
+
+//Härifrån hämtar bland annat bg
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "third": $third,
+);
+
+//The colors for the links in the navbar
+$nav-link-color: $primary;
+$nav-link-hover-color: $third;
+$link-hover-color: "null"; //Hur skriver jag över defaultvärdet utan att sätta ett nytt värde?
+
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
