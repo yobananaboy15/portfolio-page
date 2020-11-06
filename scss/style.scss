@@ -9,9 +9,21 @@ $theme-colors: (
   "third": $third,
 );
 
+$nav-link-color: $third;
+
+#portfolio {
+  height: 800px;
+}
+
+#intro-section {
+  padding-top: calc(56px + 5em);
+}
+
+//Ändra font. $font-family-sans-serif:
+
 //The colors for the links in the navbar
-$nav-link-color: $primary;
-$nav-link-hover-color: $third;
-$link-hover-color: "null"; //Hur skriver jag över defaultvärdet utan att sätta ett nytt värde?
+
+// $nav-link-hover-color: $third;
+// $link-hover-color:  //Hur skriver jag över defaultvärdet utan att sätta ett nytt värde?
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
