@@ -1,4 +1,4 @@
-#portfolio{height:800px}#intro-section{padding-top:calc(56px + 5em)}/*!
+#portfolio{height:800px}#intro-section{padding-top:calc(56px + 5em)}.grid-container{display:grid;grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));grid-template-columns:repeat();gap:1rem}.grid-container img{object-fit:cover;width:100%}.grid-container div{background-color:blue}/*!
  * Bootstrap v5.0.0-alpha2 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
  * Copyright 2011-2020 Twitter, Inc.

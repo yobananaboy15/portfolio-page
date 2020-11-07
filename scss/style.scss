@@ -19,6 +19,23 @@ $nav-link-color: $third;
   padding-top: calc(56px + 5em);
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat();
+  gap: 1rem;
+}
+
+.grid-container img {
+  object-fit: cover;
+  width: 100%;
+  // max-height: 100%;
+}
+
+.grid-container div {
+  background-color: blue;
+}
+
 //Ändra font. $font-family-sans-serif:
 
 //The colors for the links in the navbar

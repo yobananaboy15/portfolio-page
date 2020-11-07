@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" href="css/style.css" />
     <title>Document</title>
   </head>
@@ -11,7 +11,9 @@
 
     <nav class="navbar navbar-expand-lg fixed-top bg-secondary text-uppercase">
       <div class="container">
-        <a class="navbar-brand" href="#page-top">Axel Thiel</a>
+        <a class="navbar-brand" href="#page-top">
+          Axel Thiel
+        </a>
         <button
           class="navbar-toggler text-secondary bg-third"
           type="button"
@@ -39,7 +41,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li>
-              <a href="#portfolio" class="nav-link">Portfolio</a>
+              <a class="nav-link" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="#">About</a>
@@ -56,9 +58,9 @@
     </nav>
 
     <section class="bg-third" id="intro-section">
-      <div class="container d-flex flex-column align-items-center">
+      <div class="container d-flex flex-column align-items-center text-secondary">
         <img src="avataaars.svg" alt="" />
-        <h1>Axel Thiel</h1>
+        <h1 class=>Axel Thiel</h1>
         <div></div>
         <p>Fullstack Web Developer</p>
       </div>
@@ -66,14 +68,24 @@
 
     <!-- Portfolio-section -->
 
-    <section class="bg-primary" id="portfolio"></section>
+    <section class="bg-primary" id="portfolio">
+      <div class="container grid-container">
+        <div><img src="quiz.png" alt=""></div>
+        <div><img src="quiz.png" alt=""></div>
+        <div><img src="quiz.png" alt=""></div>
+        <div><img src="quiz.png" alt=""></div>
+        <div><img src="quiz.png" alt=""></div>
+        <div><img src="quiz.png" alt=""></div>
+      </div>
+    </section>
 
     <!-- About-section -->
 
     <!-- Cont-section -->
 
     <!-- Footer-->
-    <!-- <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script> -->
+  
+    <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   </body>
 </html>
