@@ -5,17 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" href="css/style.css" />
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/b8af5fd9ee.js" crossorigin="anonymous"></script>
   </head>
   <body id="page-top">
     <!-- Navbar här -->
 
     <nav class="navbar navbar-expand-lg fixed-top bg-secondary text-uppercase">
       <div class="container">
-        <a class="navbar-brand" href="#page-top">
+        <a class="navbar-brand font-weight-bold" href="#page-top">
           Axel Thiel
         </a>
         <button
-          class="navbar-toggler text-secondary bg-third"
+          class="navbar-toggler text-primary bg-white text-uppercase font-weight-bold"
           type="button"
           data-toggle="collapse"
           data-target="#navbarSupportedContent"
@@ -28,7 +30,7 @@
             width="1em"
             height="1em"
             viewBox="0 0 16 16"
-            class="bi bi-list text-secondary"
+            class="bi bi-list text-primary"
             fill="currentColor"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -41,26 +43,28 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li>
-              <a class="nav-link" href="#portfolio">Portfolio</a>
+              <a class="nav-link font-weight-bold" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">About</a>
+              <a class="nav-link font-weight-bold" aria-current="page" href="#">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Nackademin</a>
+              <a class="nav-link font-weight-bold" href="#">Nackademin</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link font-weight-bold" href="#">Contact</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <section class="bg-third" id="intro-section">
-      <div class="container d-flex flex-column align-items-center text-secondary">
-        <img src="avataaars.svg" alt="" />
-        <h1 class=>Axel Thiel</h1>
+    <!-- Intro section -->
+
+    <section class="bg-primary text-secondary" id="intro-section">
+      <div class="container d-flex flex-column align-items-center">
+        <img src="avataaars.svg" class="mb-4" alt="" />
+        <h1 class="text-uppercase">Axel Thiel</h1>
         <div></div>
         <p>Fullstack Web Developer</p>
       </div>
@@ -68,50 +72,50 @@
 
     <!-- Portfolio-section -->
 
-    <section class="bg-primary section-page" id="portfolio">
+    <section class="bg-white section-page" id="portfolio">
       <div class="container">
         <h2 class="text-center text-uppercase border-bottom">Portfolio</h2>
         <div class="grid-container">
           <div>
             <img src="quiz.png" alt="">
             <div class="details-grid">
-              <h2>Quiz game created with vanilla JS</h2>
-              <a class="btn btn-secondary" href="https://github.com/yobananaboy15/quiz-game">Go to github repo</a>
+              <h3>Quiz game created with vanilla JS</h3>
+              <a class="btn btn-primary" href="https://github.com/yobananaboy15/quiz-game">Go to github repo</a>
             </div>
           </div>
           <div>
             <img src="quiz.png" alt="">
             <div class="details-grid">
-              <h2>Quiz game created with vanilla JS</h2>
-              <a class="btn btn-secondary" href="https://github.com/yobananaboy15/quiz-game">Go to github repo</a>
+              <h3>Quiz game created with vanilla JS</h3>
+              <a class="btn btn-primary" href="https://github.com/yobananaboy15/quiz-game">Go to github repo</a>
             </div>
           </div>
           <div>
             <img src="quiz.png" alt="">
             <div class="details-grid">
-              <h2>Quiz game created with vanilla JS</h2>
-              <a class="btn btn-secondary" href="https://github.com/yobananaboy15/quiz-game">Go to github repo</a>
+              <h3>Quiz game created with vanilla JS</h3>
+              <a class="btn btn-primary" href="https://github.com/yobananaboy15/quiz-game">Go to github repo</a>
             </div>
           </div>
           <div>
             <img src="quiz.png" alt="">
             <div class="details-grid">
-              <h2>Quiz game created with vanilla JS</h2>
-              <a class="btn btn-secondary" href="https://github.com/yobananaboy15/quiz-game">Go to github repo</a>
+              <h3>Quiz game created with vanilla JS</h3>
+              <a class="btn btn-primary" href="https://github.com/yobananaboy15/quiz-game">Go to github repo</a>
             </div>
           </div>
           <div>
             <img src="quiz.png" alt="">
             <div class="details-grid">
-              <h2>Quiz game created with vanilla JS</h2>
-              <a class="btn btn-secondary" href="https://github.com/yobananaboy15/quiz-game">Go to github repo</a>
+              <h3>Quiz game created with vanilla JS</h3>
+              <a class="btn btn-primary" href="https://github.com/yobananaboy15/quiz-game">Go to github repo</a>
             </div>
           </div>
           <div>
             <img src="quiz.png" alt="">
             <div class="details-grid">
-              <h2>Quiz game created with vanilla JS</h2>
-              <a class="btn btn-secondary" href="https://github.com/yobananaboy15/quiz-game">Go to github repo</a>
+              <h3>Quiz game created with vanilla JS</h3>
+              <a class="btn btn-primary" href="https://github.com/yobananaboy15/quiz-game">Go to github repo</a>
             </div>
           </div>
       </div>
@@ -119,20 +123,63 @@
 
     <!-- About-section -->
 
-    <section class="section-page">
+    <section class="section-page bg-primary text-secondary">
       <div class="container">
         <h2 class="text-center text-uppercase border-bottom">About</h2>
+        <div class="row">
+          <div class="col-lg-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam iure id libero dolorum. Quaerat ad fugit nisi vero dolorem quibusdam, quam iste soluta perferendis natus sint consequuntur obcaecati hic minus corporis voluptate itaque reiciendis rerum? Quia eveniet enim quos impedit. Delectus atque obcaecati earum quo eos eius expedita quas dignissimos.</div>
+          <div class="col-lg-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id atque, distinctio voluptatum facilis nemo, cum dolorem eius reiciendis aspernatur modi mollitia odio soluta quos inventore sapiente blanditiis. Perspiciatis laudantium natus ex accusamus molestias reprehenderit at unde perferendis nemo totam animi optio itaque pariatur, numquam fugit amet eos, velit et dolorem.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Nackademin section-->
+
+    <section class="section-page">
+      <div class="container">
+        <h2 class="text-center text-uppercase border-bottom">Nackademin</h2>
+        Utbildningen Webbutvecklare fullstack open source ger dig en bred programmeringskompetens inom både backend och frontend. Du kommer att kunna utveckla interaktiva webbapplikationer i bland annat NodeJS, PHP och JavaScript för komplexa miljöer med hänsyn till prestanda och stora datamängder. Du kommer även att kunna utveckla moderna applikationer med hjälp av HTML, CSS och olika JavaScript-bibliotek. Utbildningen Webbutvecklare fullstack open source ger dig kunskap om de specifika utvecklingsmiljöer, programspråk och riktlinjer som webben ställer krav på idag. 
       </div>
     </section>
 
     <!-- Cont-section -->
 
-    <section class="section-page">
-      <h2 class="text-center text-uppercase border-bottom">Contact</h2>
+    <section class="section-page bg-primary text-secondary">
+      <div class="container">
+        <h2 class="text-center text-uppercase border-bottom">Contact</h2>
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <form>
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="email" placeholder="Write your name">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter email">
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-secondary mt-2">Submit</button>
+            </form>
+          </div> 
+       </div>
+      </div>
     </section>
 
     <!-- Footer-->
-  
+    <footer class="bg-secondary">
+      <div class="container">
+        <div class="flex-container">
+          <h3>Around the web</h3>
+          <div>
+            <a href="https://www.linkedin.com/in/axel-thiel-747b631ab/"class="mx-1 fab fa-2x fa-linkedin"></a>
+            <a href="https://github.com/yobananaboy15/" class="mx-1 fab fa-2x fa-github"></a>
+            <a href="https://twitter.com/CuriousZelda" class="mx-1 fab fa-2x fa-twitter-square"></a>
+          </div>
+          <span class="mt-2">Copyright &#169; Axel Thiel</span>
+        </div>
+
     <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   </body>
