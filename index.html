@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" href="css/style.css" />
-    <title>Document</title>
+    <title>Axel Thiel's portfolio page</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"> 
     <script src="https://kit.fontawesome.com/b8af5fd9ee.js" crossorigin="anonymous"></script>
   </head>
@@ -46,13 +46,13 @@
               <a class="nav-link font-weight-bold" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link font-weight-bold" aria-current="page" href="#">About</a>
+              <a class="nav-link font-weight-bold" aria-current="page" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link font-weight-bold" href="#">Nackademin</a>
+              <a class="nav-link font-weight-bold" href="#nackademin">Nackademin</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link font-weight-bold" href="#">Contact</a>
+              <a class="nav-link font-weight-bold" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -125,7 +125,7 @@
 
     <!-- About-section -->
 
-    <section class="section-page bg-primary text-secondary">
+    <section class="section-page bg-primary text-secondary" id="about">
       <div class="container">
         <h2 class="text-center text-uppercase">About</h2>
         <div class="border-div mt-3 mb-5 bg-secondary mx-auto"></div>
@@ -138,7 +138,7 @@
 
     <!-- Nackademin section-->
 
-    <section class="section-page">
+    <section class="section-page" id="nackademin">
       <div class="container">
         <h2 class="text-center text-uppercase">Nackademin</h2>
         <div class="border-div mt-3 mb-5 bg-primary mx-auto"></div>
@@ -148,7 +148,7 @@
 
     <!-- Contact section -->
 
-    <section class="section-page bg-primary text-secondary">
+    <section class="section-page bg-primary text-secondary" id="contact">
       <div class="container">
         <h2 class="text-center text-uppercase">Contact</h2>
         <div class="border-div mt-3 mb-4 bg-secondary mx-auto"></div>
@@ -157,9 +157,11 @@
             <form>
               <div class="form-group">
                 <label for="name">Name</label>
-                <input type="text" class="form-control" id="email" placeholder="Write your name">
-                <label for="email">Email address</label>
-                <input type="email" class="form-control" id="email" placeholder="Enter email">
+                <input type="text" class="form-control" id="name" placeholder="Write your name">
+              </div>  
+              <div class="form-group">
+                <label for="emailfield">Email</label>
+                <input type="email" class="form-control" id="emailfield" placeholder="Enter email">
               </div>
               <div class="form-group">
                 <label for="message">Message</label>
