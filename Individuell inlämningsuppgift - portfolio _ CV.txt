@@ -50,7 +50,7 @@ För- och nackdelar/svårigheter
 
 En uppenbar fördel är att fler användare får tillgång till tjänsten i fråga. För svenska myndigheter är detta av yttersta vikt då medborgarnas möjlighet att tillgodogöra sig information är en grundbult i vår demokrati. För privata aktörer är tillgänglighet viktigt för att nå presumtiva kunder. Det är inte otänkbart att personer med nedsättningar gärna drar sig till företag som aktivt arbetar med tillgänglighet.
 
-Ett problem som aktualiserar när man skapar tillgängliga tjänster är investering kontra nytta. Att utveckla en helt tillgänglig tjänst kan vara både kostsamt och tidskrävande, men det svårt att veta hur stor användarnyttan kommer att bli. Ett annat problem är att det inte finns någon övre gräns för hur tillgänglig en tjänst kan vara. Det är därför viktigt att fundera på de viktigaste tillgänglighetsfunktionerna och sedan implementera dem i prioriteringsordning. 
+Ett problem som aktualiseras när man skapar tillgängliga tjänster är investering kontra nytta. Att utveckla en helt tillgänglig tjänst kan vara både kostsamt och tidskrävande, men det svårt att veta hur stor användarnyttan kommer att bli. Ett annat problem är att det inte finns någon övre gräns för hur tillgänglig en tjänst kan vara. Det är därför viktigt att fundera på de viktigaste tillgänglighetsfunktionerna och sedan implementera dem i prioriteringsordning. 
 
 
 
