@@ -6,13 +6,11 @@ $font-family-sans-serif: "Montserrat", system-ui, -apple-system, "Segoe UI",
 
 $primary: #2d2926;
 $secondary: #e94b3c;
-$third: #f4af1b;
 
 //This is where bg- gets its colors
 $theme-colors: (
   "primary": $primary,
   "secondary": $secondary,
-  "third": $third,
 );
 
 //Sets the color of the navbar links
