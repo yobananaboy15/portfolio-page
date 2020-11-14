@@ -48,8 +48,20 @@ footer {
 //Rules for the portfolio grid. Fits as many items as there is room for on a row.
 
 .grid-container {
+  --repeat: auto-fit;
+}
+@media (min-width: 992px) {
+  .grid-container {
+    --repeat: 3;
+  }
+}
+
+.grid-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(
+    var(--repeat, auto-fit),
+    minmax(calc(250px * 1), 1fr)
+  );
   grid-auto-rows: minmax(250px, auto);
   gap: 1rem;
 
