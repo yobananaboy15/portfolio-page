@@ -47,14 +47,21 @@ footer {
 
 //Rules for the portfolio grid. Fits as many items as there is room for on a row.
 
+//Creating variable for when the screen size is smaler than 992px
+
 .grid-container {
   --repeat: auto-fit;
 }
+
+//Media query to control how many grid items are shown on the same row when the screen is 992px or bigger
+
 @media (min-width: 992px) {
   .grid-container {
     --repeat: 3;
   }
 }
+
+//Create a grid. Number of grid items shown on each row depends on the screen size (see the two rules above).
 
 .grid-container {
   display: grid;
